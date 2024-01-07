@@ -6,7 +6,6 @@
 
 [DotNet tool (DotNet SDK)](https://dotnet.microsoft.com/download) - For building the project with msbuild
 
-
 ### Building the project
 
 * Clone the repository
