@@ -1,0 +1,14 @@
+﻿<Project Sdk="WixToolset.Sdk/4.0.3">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DefineConstants>Version=1.0.0</DefineConstants>
+    <OutputPath>bin\</OutputPath>
+    <VerboseOutput>true</VerboseOutput>
+    <Culture>en-US</Culture>
+    <!-- <SignOutput>true</SignOutput> -->
+  </PropertyGroup>
+<!-- 
+  <Target Name="SignMsi">
+    <Message Importance="high" Text="SignMsi: @(SignMsi)" />
+    <Exec Command='signtool sign /f "certificado.pfx" /p "password” /tr http://timestamp. digicert.com /td SHA256 /fd SHA256 "wixV4.msi"' />
+  </Target> -->
+</Project>

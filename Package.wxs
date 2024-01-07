@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="TestPackage" Manufacturer="Test" Version="1.0.0.0" UpgradeCode="04701411-f5d6-4d98-8ed9-d8bce7c9577f">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="Components" />
+    </Feature>
+  </Package>
+</Wix>
