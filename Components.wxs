@@ -3,6 +3,7 @@
     <ComponentGroup Id="Components" Directory="INSTALLFOLDER">
       <Component>
         <File Source="Project.txt" />
+        <Shortcut Name="Project" Directory="DesktopFolder" Advertise="yes"/>
       </Component>
       <Component>
         <File Source="Project1.txt" />
