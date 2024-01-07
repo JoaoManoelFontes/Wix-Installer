@@ -24,3 +24,4 @@ dotnet msbuild
 * Run the msi file
 * The application,  by default, will be installed in the folder: `C:\Program Files (x86)\TestPackage\`
 * By default, the application must contain a file called `Project.txt` and other called `Project1.txt` in the installation folder
+* The application will create a Project.txt file shortcut in the start menu called `Project`
