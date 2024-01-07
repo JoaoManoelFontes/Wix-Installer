@@ -14,7 +14,7 @@
 * Build the project:
 
 ```
-dotnet tool msbuild restore
+dotnet msbuild 
 ```
 
 * The installer, by default, will be in the folder: `\bin\Debug\en-US\Package1.msi`
